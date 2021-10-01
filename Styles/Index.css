@@ -1,0 +1,97 @@
+body {
+    padding: 15px;
+    max-width: 100%;
+    height:auto;
+    background-image: url(../Images/background3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: #000612;
+    overflow-x: hidden;
+}
+h1 {font-size: 50px;
+    margin: 0px;
+}
+h2 {
+    font-size: 40px;
+    margin:0px;
+}
+p {
+    margin: 10px;
+}
+.garland {
+    position: relative;
+    animation: garlandmove 20s infinite;
+    }
+    @keyframes garlandmove {
+        0% {left:-500px;}
+        50% { left:500px;}
+        100% { left:-500px;}
+    }
+.garland-center {
+    max-width: 300px;
+    max-height: 50px;
+    position: relative;
+}
+.tree {
+    max-width: 80px;
+    max-height: 70px;
+    margin: 0px;
+}
+.invitation {
+    margin:auto;
+    max-width: 60%;
+    justify-content: center;
+    font-size: 30px;
+    border: 7px dotted #000612;
+}
+.bat {
+    max-width: 100px;
+    max-height: 24px;
+    margin: 0px;
+    position: relative;
+    }
+.form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.label  {
+    font-size: 24px;
+}
+.input-field {
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #E78B0C;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 2px 2px 6px 6px #000612;
+}
+::placeholder {
+    color: #000612;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+color: white;
+}
+.button {
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #E78B0C;
+    color: #000612;
+    font-family: 'Gloria Hallelujah', cursive;
+    box-shadow: 2px 2px 6px 6px #000612;
+    transition: background-color 2s, color 3s;
+}
+button:hover {
+    background-color: #000612;
+    color: #E78B0C;
+}
+
